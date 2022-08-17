@@ -80,8 +80,6 @@ body {
     background-color: var(--background-color-dark);
 }
 
-
-
 .headline {
 
     font-weight: 900;
@@ -120,6 +118,19 @@ body {
 .preference-subtitle {
     font-weight: 700;
     font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+   }
+
+.preference {
+    font-size: 0;
+}
+
+.preference-subtitle {
+    font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -141,7 +152,6 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
     color: var(--background-color-white);
 }
 
@@ -149,15 +159,26 @@ body {
 .section-features {
     background-color:var(--background-color-grey);
 }
+
 .headline {
     font-style: normal;
+}
+
+.headline {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-
     color:var(--title-color);
+}
+
+.name-employee {
+    color: var(--title-color);
+}
+
+.section-features {
+    background-color:var(--background-color-grey);
 }
 
 .name-employee {
@@ -183,20 +204,46 @@ body {
 
 .logo-down { 
     text-decoration: none;
+}
+
+.headline {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-color-grey);
+}
+
+.footer {
+    background-color: var(--background-color-dark);
+}
+
+.logo-down {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color:var(--text-color-white);}
+    color:var(--text-color-white);
+}
+
+.address-link {
+    color:var(--text-color-white);
+}
 
 .address-link {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing;
-    color: var(--text-color-white);}
+    color: var(--text-color-white);
+}
+
+.footer-email,
+.footer-number {
+    color: var(--text-color-white);
+}
 
 .footer-email,
 .footer-number {
@@ -204,10 +251,20 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--rgba-color);}
+    color: var(--rgba-color);
+}
 
 .catalog {
-    background-color: var(--backgraund-portfolio);}
+    background-color: var(--backgraund-portfolio);
+}
+
+.filter-dutton {
+    color: var(--rgba-color);
+}
+
+.catalog {
+    background-color: var(--backgraund-portfolio);
+}
 
 .filter-dutton {
     font-weight: 500;
@@ -217,7 +274,13 @@ body {
     letter-spacing: 0.03em;
     background:var(--background-color-grey);
     border-radius: 4px;
-    color: var(--title-color);}
+    color: var(--title-color);
+}
+
+.filter-dutton:hover,
+.filter-dutton:focus {
+    color: var(--title-color);
+}
 
 .filter-dutton:hover,
 .filter-dutton:focus {
@@ -229,7 +292,8 @@ body {
     color: var(--text-color-white);
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;}
+    border-radius: 4px;
+}
 
 .project-caption {
     font-weight: 700;
@@ -245,4 +309,5 @@ body {
     line-height: 1.67;
     letter-spacing: 0.03em;
     color: var(--text-color-grey);
+    border-radius: 4px;
 }
