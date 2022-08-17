@@ -81,14 +81,12 @@ body {
 }
 
 .headline {
-
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--background-color-white);
+    letter-spacing: 0.03em;
+    color: var(--title-color)
 }
 
 .modal-open-btn {
@@ -152,33 +150,15 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--background-color-white);
+    color: var(--text-color-white);
 }
-
 
 .section-features {
     background-color:var(--background-color-grey);
 }
 
-.headline {
-    font-style: normal;
-}
-
-.headline {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+.headline-list {
     text-align: center;
-    letter-spacing: 0.03em;
-    color:var(--title-color);
-}
-
-.name-employee {
-    color: var(--title-color);
-}
-
-.section-features {
-    background-color:var(--background-color-grey);
 }
 
 .name-employee {
@@ -187,13 +167,13 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--title-color);
+    
 }
 
 .position {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
     color:var(--text-color-grey)
 
@@ -204,18 +184,6 @@ body {
 
 .logo-down { 
     text-decoration: none;
-}
-
-.headline {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--text-color-grey);
-}
-
-.footer {
-    background-color: var(--background-color-dark);
 }
 
 .logo-down {
@@ -235,8 +203,7 @@ body {
 .address-link {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
-    letter-spacing;
+    line-height: 1,71;
     color: var(--text-color-white);
 }
 
@@ -303,7 +270,7 @@ body {
     color:var(--title-color);
 }
 
-.project-lext {
+.project-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.67;
