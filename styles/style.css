@@ -57,6 +57,7 @@ body {
 .page-header {
     padding-top: 25px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
 .page-header-container {
     display: flex;
@@ -385,6 +386,7 @@ body {
 /* =======project====== */
 .project {
     width: 370;
+    margin-bottom: 30px;
 }
 
 .project-list {
@@ -395,6 +397,10 @@ body {
 
 .project-cintainer {
     padding: 20px 24px;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+
 }
 
 .project-caption {
